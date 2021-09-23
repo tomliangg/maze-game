@@ -2,7 +2,7 @@
  *
  * @param {number} x - width of maze
  * @param {number} y  - height of maze
- * Cell value: maze[i][j][n] is 0 (has wall) or 1 (no wall)
+ * Cell value: maze[i][j][n] is 0 (cannot go thru / has wall) or 1 (can go thru / no wall)
  * n == 0: north wall, n == 1: east wall
  * n == 2: south wall, n == 3: west wall
  *
