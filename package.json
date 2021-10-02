@@ -4,7 +4,9 @@
   "description": "",
   "keywords": [],
   "main": "src/index.js",
+  "homepage": "https://tomliangg.github.io/maze-game/",
   "dependencies": {
+    "gh-pages": "3.2.3",
     "node-sass": "4.14.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
@@ -17,6 +19,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },

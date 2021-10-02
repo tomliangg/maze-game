@@ -11,4 +11,6 @@ algorithm implementation reference
 
 
 ## Demo
-![game play demo](demo/maze%20game%20play.gif)
+![game play demo](demo/maze%20game%20play.gif)  
+
+Try it out here: https://tomliangg.github.io/maze-game/
